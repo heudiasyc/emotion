@@ -1,0 +1,35 @@
+    
+
+#data-format {
+	text-align: left;
+	color : rgb(100,100,100);
+	font-size: 1.3rem;
+	max-width: 800px;
+}
+
+details {
+  margin-left: 20px;
+}
+
+summary {
+  cursor: pointer;
+}
+
+.file {
+  margin-left: 40px;
+}
+
+.dataset {
+	margin-left: 40px;
+	display: flex;
+    flex-direction: row;
+	gap: 20px;
+	color: rgb(0,190,190)
+}
+
+.attribute {
+	margin-left: 40px;
+	display: flex;
+    flex-direction: row;
+	gap: 20px;
+}

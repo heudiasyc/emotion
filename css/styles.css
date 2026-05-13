@@ -1,0 +1,246 @@
+body {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    font-family: Montserrat; */
+
+	margin: 0;
+	/* min-height: 100vh; */
+	font-family: Montserrat;
+
+	min-width: 800px;
+
+}
+
+
+.page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+footer {
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+
+header h1 {
+	font-size: 6rem;
+	color : rgb(100,100,100);
+	margin-bottom: 40px;
+	padding-bottom: 0px;
+}
+
+header h2 {
+	color : rgb(100,100,100);
+	font-weight: 300;
+	font-size: 1.5rem;
+	margin-bottom: 20px;
+}
+
+main h2 {
+	color: rgb(60,60,60);
+	text-align: center;
+	font-size: 30px;
+}
+
+main {
+	display: none;
+	padding-left: 20px;
+}
+
+main.active {
+	display: block;
+}
+
+.img-main-box img {
+	width: 100%;
+  	max-width: 800px;
+
+    height: auto;
+	margin-bottom: 10px;
+}
+
+.img-main {
+	transition: opacity 0.3s ease-in-out;
+	opacity: 1;
+	border-radius: 15px;
+	overflow: hidden;
+}
+
+.img-main.fade-out {
+	opacity: 0;
+}
+
+.button {
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	background-color: rgb(190,190,190);
+	text-decoration: none;
+}
+
+.button:hover {
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	background-color: rgb(0, 190, 190);
+	text-decoration: none;
+}
+
+.button:active {
+	border: none;
+	padding: 10px 20px;
+	cursor: pointer;
+	border-radius: 5px;
+	font-size: 20px;
+	font-weight: 500;
+	color: white;
+	background-color: rgb(0, 190, 190);
+	transform: scale(1.05);
+	text-decoration: none;
+}
+
+
+.img-switcher-box{
+	display: inline-flex;
+	gap: 8px;
+	padding: 8px 12px;
+	border-radius: 13px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	background-color: rgb(100,100,100);
+	margin-bottom: 70px;
+}
+
+.img-switcher-button{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	background: white;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+}
+
+.img-switcher-button.active{
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border:  2px solid white;
+	background: rgb(100,100,100);
+	cursor: pointer;
+	padding: 0;
+}
+
+.default-text{
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	line-height: 1.5;
+	color : rgb(100,100,100);
+	font-weight: 300;
+	margin-bottom: 70px;
+	text-align: justify;
+	font-size: 21px;
+}
+
+.citation-box {
+	background-color: rgb(230,230,230);
+	color: rgb(100,100,100);
+	width: 100%;
+  	max-width: 600px;
+
+	margin: 0 auto;
+	font-family: Consolas, "Courier New", monospace;
+	font-size: 16px;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-x: auto;
+	text-align: left;
+	margin-bottom: 70px;
+}
+
+.contact-box {
+	display: inline-flex;
+	gap: 12px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	font-size: 26px;
+}
+
+.email-logo:hover {
+	transform: scale(1.05);
+}
+
+.logo-box {
+	display: inline-flex;
+	gap: 50px;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+}
+
+.img-logo {
+	width: auto;
+	height: 100px;
+}
+
+.circle-separator-dataset {
+    display: inline-block;
+    width: 15px;              /* circle size */
+    height: 15px;
+    background-color: rgb(0, 190, 190);  /* circle color */
+    border-radius: 50%;
+    margin: 0 3px;           /* spacing */
+	vertical-align: 0px;
+}
+
+.circle-separator-attr {
+    display: inline-block;
+    width: 15px;              /* circle size */
+    height: 15px;
+    background-color: rgb(100,100,100);  /* circle color */
+    border-radius: 50%;
+    margin: 0 3px;           /* spacing */
+    vertical-align: 0px;  /* keeps it centered with text */
+}
+
+
+.preview-gift {
+	width: 300px;
+	height: auto;
+	border-radius: 15px;
+	overflow: hidden;
+	gap: 20px;
+}
+
+
+.sequence-title {
+	width: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+	color : rgb(100,100,100);
+	font-weight: 500;
+	text-align: center;
+	font-size: 21px;
+	margin-bottom: 20px;
+}
